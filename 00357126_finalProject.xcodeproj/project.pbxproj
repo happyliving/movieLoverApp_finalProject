@@ -14,6 +14,10 @@
 		C1A181291E1B426700C864A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A181271E1B426700C864A1 /* LaunchScreen.storyboard */; };
 		C1A181341E1B426700C864A1 /* _0357126_finalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A181331E1B426700C864A1 /* _0357126_finalProjectTests.swift */; };
 		C1A1813F1E1B426700C864A1 /* _0357126_finalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A1813E1E1B426700C864A1 /* _0357126_finalProjectUITests.swift */; };
+		C1A181511E1B904F00C864A1 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A181501E1B904F00C864A1 /* MovieTableViewController.swift */; };
+		C1A181531E1B90A100C864A1 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A181521E1B90A100C864A1 /* MovieTableViewCell.swift */; };
+		C1A181551E1B90CE00C864A1 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A181541E1B90CE00C864A1 /* MovieDetailViewController.swift */; };
+		C1A181571E1B910700C864A1 /* AddMovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A181561E1B910700C864A1 /* AddMovieTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		C1A1813A1E1B426700C864A1 /* 00357126_finalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 00357126_finalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A1813E1E1B426700C864A1 /* _0357126_finalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0357126_finalProjectUITests.swift; sourceTree = "<group>"; };
 		C1A181401E1B426700C864A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A181501E1B904F00C864A1 /* MovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		C1A181521E1B90A100C864A1 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		C1A181541E1B90CE00C864A1 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		C1A181561E1B910700C864A1 /* AddMovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMovieTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +108,11 @@
 				C1A1811E1E1B426700C864A1 /* AppDelegate.swift */,
 				C1A181201E1B426700C864A1 /* ViewController.swift */,
 				C1A181221E1B426700C864A1 /* Main.storyboard */,
+				C1A181501E1B904F00C864A1 /* MovieTableViewController.swift */,
+				C1A181521E1B90A100C864A1 /* MovieTableViewCell.swift */,
 				C1A181251E1B426700C864A1 /* Assets.xcassets */,
+				C1A181541E1B90CE00C864A1 /* MovieDetailViewController.swift */,
+				C1A181561E1B910700C864A1 /* AddMovieTableViewController.swift */,
 				C1A181271E1B426700C864A1 /* LaunchScreen.storyboard */,
 				C1A1812A1E1B426700C864A1 /* Info.plist */,
 			);
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A181571E1B910700C864A1 /* AddMovieTableViewController.swift in Sources */,
 				C1A181211E1B426700C864A1 /* ViewController.swift in Sources */,
+				C1A181551E1B90CE00C864A1 /* MovieDetailViewController.swift in Sources */,
 				C1A1811F1E1B426700C864A1 /* AppDelegate.swift in Sources */,
+				C1A181531E1B90A100C864A1 /* MovieTableViewCell.swift in Sources */,
+				C1A181511E1B904F00C864A1 /* MovieTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +521,7 @@
 				C1A181451E1B426700C864A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1A181461E1B426700C864A1 /* Build configuration list for PBXNativeTarget "00357126_finalProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				C1A181481E1B426700C864A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1A181491E1B426700C864A1 /* Build configuration list for PBXNativeTarget "00357126_finalProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				C1A1814B1E1B426700C864A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
